@@ -34,10 +34,19 @@
   color: var(--alternate);
   /* text-shadow: 0 0 2px var(--bg-panel), 0 0 35px var(--lightest44), 0 0 10px var(--alternate), 0 0 2px var(--alternate); */
   text-shadow:
-  1px 2px 1px var(--darkest),
-  2px 4px 1px var(--darkest),
-  0px 2px 1px var(--darkest),
-  1px 4px 1px var(--darkest);
+  0 0 0 var(--darkest),
+  0 0 1px var(--darkest),
+  1px 0 0 var(--darkest),
+  -1px 0 0 var(--darkest),
+  0 1px 0 var(--darkest),
+  0 -1px 0 var(--darkest),
+  1px 1px 0 var(--darkest),
+  -1px -1px 0 var(--darkest),
+  1px -1px 0 var(--darkest),
+  -1px 1px 0 var(--darkest),
+  0 4px 4px var(--darkest),
+  0 12px 20px var(--darkest),
+  0 24px 44px var(--shadow);
 }
 
 
