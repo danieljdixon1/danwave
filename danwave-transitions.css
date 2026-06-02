@@ -57,11 +57,6 @@
 .chat-view .selected-text, .monaco-editor .selected-text {
     font-weight: 700 !important;
     background-color: var(--primary-lighter1) !important;
-    box-shadow:
-        1px 2px 1px var(--darkest),
-        2px 4px 1px var(--darkest),
-        0px 2px 1px var(--darkest),
-        1px 4px 1px var(--darkest);
     color: var(--lightest) !important;
 }
 
@@ -100,11 +95,6 @@ textarea::selection {
 .monaco-workbench .xterm .xterm-selection div {
     background-color: var(--primary-lighter1)!important;
     opacity: 0.9 !important;
-    box-shadow:
-        1px 2px 1px var(--darkest),
-        2px 4px 1px var(--darkest),
-        0px 2px 1px var(--darkest),
-        1px 4px 1px var(--darkest);
 }
 
 .editor-group-container:after {
