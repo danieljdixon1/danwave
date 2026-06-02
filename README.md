@@ -66,6 +66,20 @@ The font being used in the screenshot above is [Operator Mono with Ligatures](ht
 
 <br/><br/>
 
+## Palette workflow
+Shared colors now live in `theme-palette.mjs`.
+
+Run `npm run build` after changing the palette. That script:
+
+1. creates `src/danwave.source.css`, `src/danwave-transitions.source.css`, and `src/danwave.source.json` the first time it runs
+2. generates `palette.css` with CSS custom properties
+3. rebuilds `danwave.css`, `danwave-transitions.css`, and `themes/danwave.json`
+
+This is necessary because the CSS files can use variables directly, but the VS Code theme JSON cannot. The JSON still has to be generated as plain color values.
+
+
+<br/><br/>
+
 ## Contibution
 All contributions are welcome, including issues, new docs as well as updates and tweaks, blog posts, workshops, and more.
 

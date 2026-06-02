@@ -1,0 +1,633 @@
+{
+  "name": "SynthWave 84",
+  "type": "dark",
+  "colors": {
+    "focusBorder": "$palette.graphite",
+    "foreground": "$palette.chrome",
+    "widget.shadow": "$palette.widget",
+    "selection.background": "$palette.surface59",
+    "errorForeground": "$palette.electricPurple",
+    "textLink.activeForeground": "$palette.neonCyan",
+    "textLink.foreground": "$palette.electricPurple",
+    "button.background": "$palette.widget",
+    "dropdown.background": "$palette.overlay",
+    "dropdown.listBackground": "$palette.widget",
+    "input.background": "$palette.widget",
+    "inputOption.activeBorder": "$palette.neonCyanSoft",
+    "inputValidation.errorBackground": "$palette.electricPurpleVeil",
+    "inputValidation.errorBorder": "$palette.electricPurpleTransparent",
+    "scrollbar.shadow": "$palette.widget",
+    "scrollbarSlider.activeBackground": "$palette.surface88",
+    "scrollbarSlider.background": "$palette.surface1a",
+    "scrollbarSlider.hoverBackground": "$palette.surface59",
+    "badge.foreground": "$palette.chrome",
+    "badge.background": "$palette.widget",
+    "progressBar.background": "$palette.electricPurple",
+    "list.activeSelectionBackground": "#2a213980",
+    "list.activeSelectionForeground": "$palette.chrome",
+    "list.dropBackground": "$palette.surface66",
+    "list.focusBackground": "#2a213999",
+    "list.focusForeground": "$palette.chrome",
+    "list.highlightForeground": "$palette.electricPurple",
+    "list.hoverBackground": "#2a213999",
+    "list.hoverForeground": "$palette.chrome",
+    "list.inactiveSelectionBackground": "$palette.surface66",
+    "list.inactiveSelectionForeground": "$palette.chrome",
+    "list.inactiveFocusBackground": "#2a213999",
+    "list.errorForeground": "$palette.electricPurpleSolid",
+    "list.warningForeground": "$palette.electricPurpleWarning",
+    "activityBar.background": "$palette.activityBar",
+    "activityBar.dropBackground": "$palette.surface66",
+    "activityBar.foreground": "$palette.chromeCc",
+    "activityBarBadge.background": "$palette.electricPurple",
+    "activityBarBadge.foreground": "$palette.widget",
+    "sideBar.background": "$palette.panel",
+    "sideBar.foreground": "$palette.chrome99",
+    "sideBar.dropBackground": "$palette.surface4c",
+    "sideBarSectionHeader.background": "$palette.panel",
+    "sideBarSectionHeader.foreground": "$palette.chromeCa",
+    "editorGroup.border": "$palette.border",
+    "editorGroup.dropBackground": "$palette.surface4a",
+    "editorGroupHeader.tabsBackground": "$palette.panel",
+    "tab.border": "$palette.electricPurpleTransparent",
+    "tab.activeBorder": "$palette.electricPurple",
+    "tab.inactiveBackground": "$palette.editor",
+    "editor.background": "$palette.editor",
+    "editorLineNumber.foreground": "$palette.chrome10",
+    "editorLineNumber.activeForeground": "$palette.chrome73",
+    "editorCursor.background": "$palette.panel",
+    "editorCursor.foreground": "$palette.electricPurple",
+    "editor.selectionBackground": "$palette.selection",
+    "editor.selectionHighlightBackground": "$palette.surface59",
+    "editor.wordHighlightBackground": "$palette.surface88",
+    "editor.wordHighlightStrongBackground": "$palette.surface88",
+    "editor.findMatchBackground": "$palette.surface59",
+    "editor.findMatchHighlightBackground": "$palette.surface33",
+    "editor.findRangeHighlightBackground": "$palette.surface1a",
+    "editor.hoverHighlightBackground": "$palette.surface4d",
+    "editor.lineHighlightBackground": "$palette.surface66",
+    "editor.rangeHighlightBackground": "$palette.border39",
+    "editorIndentGuide.background": "$palette.border39",
+    "editorIndentGuide.activeBackground": "$palette.widget",
+    "editorRuler.foreground": "$palette.surface33",
+    "editorCodeLens.foreground": "$palette.chromeCc",
+    "editorBracketMatch.background": "$palette.surface66",
+    "editorBracketMatch.border": "$palette.border",
+    "editorOverviewRuler.border": "$palette.surfaceB3",
+    "editorOverviewRuler.findMatchForeground": "$palette.surface",
+    "editorOverviewRuler.modifiedForeground": "$palette.border99",
+    "editorOverviewRuler.addedForeground": "$palette.success",
+    "editorOverviewRuler.deletedForeground": "$palette.electricPurpleTint",
+    "editorOverviewRuler.errorForeground": "$palette.electricPurpleStrong",
+    "editorOverviewRuler.warningForeground": "$palette.electricPurpleMuted",
+    "editorError.foreground": "$palette.electricPurple",
+    "editorWarning.foreground": "$palette.electricPurpleMuted",
+    "editorGutter.modifiedBackground": "$palette.borderAf",
+    "editorGutter.addedBackground": "$palette.successSolid",
+    "editorGutter.deletedBackground": "$palette.danger",
+    "diffEditor.insertedTextBackground": "$palette.diffInsert",
+    "diffEditor.removedTextBackground": "$palette.electricPurpleFog",
+    "editorWidget.background": "$palette.overlay",
+    "editorWidget.border": "$palette.overlay",
+    "editorSuggestWidget.highlightForeground": "$palette.electricPurple",
+    "peekView.border": "$palette.border",
+    "peekViewEditor.background": "$palette.overlay",
+    "peekViewEditor.matchHighlightBackground": "$palette.surface59",
+    "peekViewResult.background": "$palette.overlay",
+    "peekViewResult.matchHighlightBackground": "$palette.surface59",
+    "peekViewResult.selectionBackground": "#2a213980",
+    "peekViewTitle.background": "$palette.overlay",
+    "panelTitle.activeBorder": "$palette.electricPurple",
+    "statusBar.background": "$palette.panel",
+    "statusBar.foreground": "$palette.chrome80",
+    "statusBar.debuggingBackground": "$palette.electricPurple",
+    "statusBar.debuggingForeground": "#08080f",
+    "statusBar.noFolderBackground": "$palette.panel",
+    "statusBarItem.hoverBackground": "$palette.widget",
+    "statusBarItem.prominentBackground": "$palette.widget",
+    "statusBarItem.prominentHoverBackground": "$palette.surface",
+    "titleBar.activeBackground": "$palette.panel",
+    "titleBar.inactiveBackground": "$palette.panel",
+    "extensionButton.prominentBackground": "$palette.electricPurple",
+    "extensionButton.prominentHoverBackground": "$palette.neonCyan",
+    "pickerGroup.foreground": "#8a2dc0ea",
+    "terminal.foreground": "$palette.chrome",
+    "terminal.ansiBlue": "$palette.glowCyan",
+    "terminal.ansiBrightBlue": "$palette.glowCyan",
+    "terminal.ansiBrightCyan": "$palette.glowCyan",
+    "terminal.ansiBrightGreen": "$palette.electricPurple",
+    "terminal.ansiBrightMagenta": "$palette.neonCyan",
+    "terminal.ansiBrightRed": "$palette.electricPurple",
+    "terminal.ansiBrightYellow": "$palette.magenta",
+    "terminal.ansiCyan": "$palette.glowCyan",
+    "terminal.ansiGreen": "$palette.electricPurple",
+    "terminal.ansiMagenta": "$palette.neonCyan",
+    "terminal.ansiRed": "$palette.electricPurple",
+    "terminal.ansiYellow": "$palette.electricPurple",
+    "terminal.selectionBackground": "$palette.surface4d",
+    "terminalCursor.background": "$palette.chrome",
+    "terminalCursor.foreground": "$palette.glowCyan",
+    "debugToolBar.background": "$palette.panel",
+    "walkThrough.embeddedEditorBackground": "$palette.overlay",
+    "gitDecoration.modifiedResourceForeground": "#b893ceee",
+    "gitDecoration.deletedResourceForeground": "$palette.electricPurple",
+    "gitDecoration.addedResourceForeground": "$palette.electricPurpleMuted",
+    "gitDecoration.untrackedResourceForeground": "$palette.electricPurple",
+    "gitDecoration.ignoredResourceForeground": "$palette.chrome59",
+    "breadcrumbPicker.background": "$palette.overlay"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "$palette.border",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string.quoted",
+        "string.template",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Punctuation within templates",
+      "scope": "string.template meta.embedded.line",
+      "settings": {
+        "foreground": "$palette.mutedText"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable",
+        "entity.name.variable"
+      ],
+      "settings": {
+        "foreground": "$palette.neonCyan"
+      }
+    },
+    {
+      "name": "Language variable",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "$palette.electricPurple",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Parameter",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Storage (declaration or modifier keyword)",
+      "scope": [
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Regex",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Language constant (boolean, null)",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Character escape",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "$palette.aqua"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": "entity.name",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "HTML or XML tag",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "$palette.amber"
+      }
+    },
+    {
+      "name": "HTML or XML tag brackets",
+      "scope": [
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "$palette.aqua"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "Tag attribute HTML",
+      "scope": "entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "$palette.magenta",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Class",
+      "scope": [
+        "entity.name.type",
+        "meta.attribute.class.html"
+      ],
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "$palette.hotPink"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "$palette.aqua"
+      }
+    },
+    {
+      "name": "JS Export",
+      "scope": [
+        "keyword.control.export.js",
+        "keyword.control.import.js"
+      ],
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "Control keyword",
+      "scope": "keyword.control",
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "Special operator",
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "Unit",
+      "scope": "keyword.other.unit",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Support function",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "$palette.aqua"
+      }
+    },
+    {
+      "name": "Support variable",
+      "scope": "support.variable",
+      "settings": {
+        "foreground": "$palette.neonCyan"
+      }
+    },
+    {
+      "name": "Object literal key / property",
+      "scope": [
+        "meta.object-literal.key",
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "$palette.neonCyan"
+      }
+    },
+    {
+      "name": "Key-value separator",
+      "scope": "punctuation.separator.key-value",
+      "settings": {
+        "foreground": "$palette.mutedText"
+      }
+    },
+    {
+      "name": "Embedded puncuation",
+      "scope": "punctuation.section.embedded",
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "Template expression",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "CSS property",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "$palette.hotPink"
+      }
+    },
+    {
+      "name": "JS Switch control",
+      "scope": "switch-block.expr.js",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Color",
+      "scope": "constant.other.color",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Font names",
+      "scope": "support.constant.font-name",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "CSS #id",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "$palette.aqua"
+      }
+    },
+    {
+      "name": "Pseudo CSS",
+      "scope": [
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.pseudo-class"
+      ],
+      "settings": {
+        "foreground": "$palette.hotPink"
+      }
+    },
+    {
+      "name": "CSS support functions (rgb)",
+      "scope": "support.function.misc.css",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Markup heading",
+      "scope": [
+        "markup.heading",
+        "entity.name.section"
+      ],
+      "settings": {
+        "foreground": "$palette.neonCyan"
+      }
+    },
+    {
+      "name": "Markup text",
+      "scope": [
+        "text.html",
+        "keyword.operator.assignment"
+      ],
+      "settings": {
+        "foreground": "$palette.chromeEe"
+      }
+    },
+    {
+      "name": "Markup quote",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "$palette.mutedTextCc",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup list",
+      "scope": "beginning.punctuation.definition.list",
+      "settings": {
+        "foreground": "$palette.neonCyan"
+      }
+    },
+    {
+      "name": "Markup link",
+      "scope": "markup.underline.link",
+      "settings": {
+        "foreground": "$palette.hotPink"
+      }
+    },
+    {
+      "name": "Markup link description",
+      "scope": "string.other.link.description",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Python function call",
+      "scope": "meta.function-call.generic.python",
+      "settings": {
+        "foreground": "$palette.aqua"
+      }
+    },
+    {
+      "name": "C# storage type",
+      "scope": "storage.type.cs",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "C# local variable",
+      "scope": "entity.name.variable.local.cs",
+      "settings": {
+        "foreground": "$palette.neonCyan"
+      }
+    },
+    {
+      "name": "C# properties and fields",
+      "scope": [
+        "entity.name.variable.field.cs",
+        "entity.name.variable.property.cs"
+      ],
+      "settings": {
+        "foreground": "$palette.neonCyan"
+      }
+    },
+    {
+      "name": "C++ operators",
+      "scope": "source.cpp keyword.operator",
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "Elixir Classes",
+      "scope": [
+        "source.elixir support.type.elixir",
+        "source.elixir meta.module.elixir entity.name.class.elixir"
+      ],
+      "settings": {
+        "foreground": "$palette.aqua"
+      }
+    },
+    {
+      "name": "Elixir Functions",
+      "scope": "source.elixir entity.name.function",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Elixir Constants",
+      "scope": [
+        "source.elixir constant.other.symbol.elixir",
+        "source.elixir constant.other.keywords.elixir"
+      ],
+      "settings": {
+        "foreground": "$palette.aqua"
+      }
+    },
+    {
+      "name": "Elixir String Punctuation",
+      "scope": "source.elixir punctuation.definition.string",
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Elixir",
+      "scope": [
+        "source.elixir variable.other.readwrite.module.elixir",
+        "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
+      ],
+      "settings": {
+        "foreground": "$palette.electricPurple"
+      }
+    },
+    {
+      "name": "Elixir Binary Punctuation",
+      "scope": "source.elixir .punctuation.binary.elixir",
+      "settings": {
+        "foreground": "$palette.neonCyan",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "ARM template property name",
+      "scope": [
+        "support.type.property-name.json.arm-template"
+      ],
+      "settings": {
+        "foreground": "$palette.magenta"
+      }
+    },
+    {
+      "name": "ARM template function, parameter and variable names",
+      "scope": [
+        "support.type.parameters.parameter-name.tle.arm-template",
+        "variable.language.variables.variable-name.tle.arm-template",
+        "entity.name.tag.usernamespace.tle.arm-template",
+        "entity.name.tag.userfunction.tle.arm-template"
+      ],
+      "settings": {
+        "foreground": "#61e2ffff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "ARM template parameters and variables",
+      "scope": [
+        "variable.language.variables.tle.arm-template",
+        "support.type.parameters.tle.arm-template"
+      ],
+      "settings": {
+        "foreground": "#36f9f6ff",
+        "fontStyle": ""
+      }
+    }
+  ]
+}

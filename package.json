@@ -35,8 +35,9 @@
 		]
 	},
 	"scripts": {
-		"package": "vsce package",
-		"publish": "vsce publish"
+		"build": "node ./scripts/build-theme.mjs",
+		"package": "npm run build && vsce package",
+		"publish": "npm run build && vsce publish"
 	},
 	"dependencies": {
 		"vsce": "^1.100.1"

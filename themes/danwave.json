@@ -34,11 +34,11 @@
     "list.inactiveSelectionBackground": "#34294f66",
     "list.inactiveSelectionForeground": "#ffffff",
     "list.inactiveFocusBackground": "#2a213999",
-    "list.errorForeground": "#8a2dc0E6",
+    "list.errorForeground": "#8a2dc0e6",
     "list.warningForeground": "#8a2dc0bb",
     "activityBar.background": "#171520",
     "activityBar.dropBackground": "#34294f66",
-    "activityBar.foreground": "#ffffffCC",
+    "activityBar.foreground": "#ffffffcc",
     "activityBarBadge.background": "#8a2dc0",
     "activityBarBadge.foreground": "#2a2139",
     "sideBar.background": "#241b2f",
@@ -49,8 +49,8 @@
     "editorGroup.border": "#495495",
     "editorGroup.dropBackground": "#34294f4a",
     "editorGroupHeader.tabsBackground": "#241b2f",
-    "tab.border": "#241b2f00",
-    "tab.activeBorder": "#880088",
+    "tab.border": "#8a2dc000",
+    "tab.activeBorder": "#8a2dc0",
     "tab.inactiveBackground": "#262335",
     "editor.background": "#262335",
     "editorLineNumber.foreground": "#ffffff10",
@@ -101,7 +101,7 @@
     "statusBar.background": "#241b2f",
     "statusBar.foreground": "#ffffff80",
     "statusBar.debuggingBackground": "#8a2dc0",
-    "statusBar.debuggingForeground": "#08080f",
+    "statusBar.debuggingForeground": "#000000",
     "statusBar.noFolderBackground": "#241b2f",
     "statusBarItem.hoverBackground": "#2a2139",
     "statusBarItem.prominentBackground": "#2a2139",
@@ -129,7 +129,7 @@
     "terminalCursor.foreground": "#03edf9",
     "debugToolBar.background": "#241b2f",
     "walkThrough.embeddedEditorBackground": "#232530",
-    "gitDecoration.modifiedResourceForeground": "#b893ceee",
+    "gitDecoration.modifiedResourceForeground": "#ffffffee",
     "gitDecoration.deletedResourceForeground": "#8a2dc0",
     "gitDecoration.addedResourceForeground": "#8a2dc0cc",
     "gitDecoration.untrackedResourceForeground": "#8a2dc0",
@@ -604,7 +604,7 @@
       "settings": {
         "foreground": "#f92aad"
       }
-    }, 
+    },
     {
       "name": "ARM template function, parameter and variable names",
       "scope": [
