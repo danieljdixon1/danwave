@@ -18,6 +18,15 @@
     color: var(--lightest) !important;
 }
 
+/* Hover tooltip selections */
+.monaco-editor .monaco-hover ::selection,
+.monaco-editor .monaco-hover p::selection,
+.monaco-editor .monaco-hover span::selection,
+.monaco-editor .monaco-hover code::selection {
+    background-color: var(--alternate-mid) !important;
+    color: var(--lightest) !important;
+}
+
 /* Input/textarea selections (search boxes, find boxes, etc.) */
 .monaco-inputbox input::selection,
 .monaco-inputbox textarea::selection,
