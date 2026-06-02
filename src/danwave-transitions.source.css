@@ -18,6 +18,19 @@
     color: var(--lightest) !important;
 }
 
+/* Input/textarea selections (search boxes, find boxes, etc.) */
+.monaco-inputbox input::selection,
+.monaco-inputbox textarea::selection,
+.search-view .monaco-inputbox input::selection,
+.search-view .monaco-inputbox textarea::selection,
+.quick-input-widget input::selection,
+.quick-input-widget textarea::selection,
+input[type="text"]::selection,
+textarea::selection {
+    background-color: var(--primary-lighter1) !important;
+    color: var(--lightest) !important;
+}
+
 .xterm .xterm-selection div,
 .terminal.xterm .xterm-selection div,
 .monaco-workbench .xterm .xterm-selection div {
