@@ -124,7 +124,7 @@
     "terminal.ansiMagenta": "$palette.secondary",
     "terminal.ansiRed": "$palette.primary",
     "terminal.ansiYellow": "$palette.primary",
-    "terminal.selectionBackground": "$palette.surface4d",
+    "terminal.selectionBackground": "$palette.accentTint",
     "terminalCursor.background": "$palette.lightest",
     "terminalCursor.foreground": "$palette.secondaryAlt",
     "debugToolBar.background": "$palette.bgPanel",
@@ -139,9 +139,15 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": "comment",
+      "scope": [
+        "comment",
+        "comment.block",
+        "comment.line",
+        "comment.documentation",
+        "punctuation.definition.comment"
+      ],
       "settings": {
-        "foreground": "$palette.border",
+        "foreground": "$palette.lightest59",
         "fontStyle": "italic"
       }
     },
@@ -195,7 +201,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -260,14 +266,14 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
       "name": "Tag attribute HTML",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "$palette.alternate",
+        "foreground": "$palette.primaryLighter1",
         "fontStyle": "italic"
       }
     },
@@ -285,7 +291,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -312,21 +318,21 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
       "name": "Control keyword",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
       "name": "Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -337,7 +343,7 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -389,7 +395,7 @@
       "name": "Embedded puncuation",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -409,7 +415,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -447,7 +453,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -496,7 +502,7 @@
       "name": "Markup link",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -541,7 +547,7 @@
       "name": "C++ operators",
       "scope": "source.cpp keyword.operator",
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {
@@ -602,7 +608,7 @@
         "support.type.property-name.json.arm-template"
       ],
       "settings": {
-        "foreground": "$palette.alternate"
+        "foreground": "$palette.primaryLighter1"
       }
     },
     {

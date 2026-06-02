@@ -6,8 +6,8 @@
   --primary-veil: #ff786466;
   --primary-muted: #ff786499;
   --primary-lighter1: #ffa078;
-  --secondary: #6478ff;
-  --secondary-alt: #78a0ff;
+  --secondary: #78a0ff;
+  --secondary-alt: #6478ff;
   --alternate: #77fe9b;
   --alternate-wash: #77fe9b33;
   --alternate-faint: #77fe9b22;
@@ -42,7 +42,7 @@
   --negative: #ff7864a4;
   --overlay-strong: #000000aa;
   --clear: rgba(0,0,0,0);
-  --grid-line: #7f7f7f66;
+  --grid-line: #7f7f7f16;
   --gradient-start: #282333;
   --gradient-end: #4f4566;
   --pulse-start: #77fe9b00;
@@ -55,17 +55,14 @@
 
 .mtk3, .mtk6 {
   color: var(--secondary);
-  text-shadow: 0 0 2px var(--shadow), 0 0 5px var(--secondary-alt), 0 0 10px var(--emphasis-soft);
 }
 
 .mtk3.mtki {
   font-style: italic;
-  color: var(--primary-lighter1);
+  color: var(--lightest59);
+  text-shadow: none;
 }
 
-.mtk4, .mtk5, .mtk11, .mtk14 {
-  color: var(--primary-lighter1);
-}
 
 .mtk8, .mtk9 {
   /* color: var(--emphasis); */
@@ -84,32 +81,47 @@
   text-shadow: 0 0 2px var(--shadow), 0 0 10px var(--positive-solid), 0 0 35px var(--bg-panel);
 } */
 
-.mtk7, .mtk10 {
-  color: var(--alternate);
+.mtk7 {
+  color: var(--lightest59);
   /* text-shadow: 0 0 2px var(--bg-panel), 0 0 35px var(--lightest44), 0 0 10px var(--alternate), 0 0 2px var(--alternate); */
-  text-shadow:
-  0 0 0 var(--darkest),
-  0 0 1px var(--darkest),
-  1px 0 0 var(--darkest),
-  -1px 0 0 var(--darkest),
-  0 1px 0 var(--darkest),
-  0 -1px 0 var(--darkest),
-  1px 1px 0 var(--darkest),
-  -1px -1px 0 var(--darkest),
-  1px -1px 0 var(--darkest),
-  -1px 1px 0 var(--darkest),
-  0 4px 4px var(--darkest),
-  0 12px 20px var(--darkest),
-  0 24px 44px var(--shadow);
+  text-shadow: none;
 }
 
 
 .mtk10 {
+    color: var(--lightest59);
+    text-shadow: none;
     font-style: italic;
+}
+
+.mtk4, .mtk5, .mtk11, .mtk14 {
+  color: var(--primary-lighter1);
+}
+
+/* Monaco token class IDs can vary by language/theme context; keep extra classes on the standard shadow stack. */
+.mtk3, .mtk4, .mtk5, .mtk11, .mtk14, .mtk10, .mtk7, .mtk6, .mtk4, .mtk5, .mtk11, .mtk14, .mtk12, .mtk13, .mtk15, .mtk16, .mtk17, .mtk18 {
+  font-weight: 700;
+    -webkit-text-stroke: 0.5px var(--darkest);
+    text-shadow: 0px 0px 1px var(--darkest), 0 3px 5px var(--darkest);
 }
 
 .monaco-editor .margin, .monaco-editor-background, .monaco-editor .inputarea.ime-input {
   background: var(--clear);
+}
+
+.monaco-workbench {
+  --standard-popup-shadow: 0 0 1px var(--darkest), 0 3px 5px var(--darkest);
+}
+
+/* Use one shared shadow profile for floating surfaces. */
+.monaco-editor .monaco-hover,
+.suggest-widget,
+.quick-input-widget,
+.monaco-menu,
+.context-view,
+.monaco-editor .parameter-hints-widget,
+.notifications-toasts .notification-toast {
+  box-shadow: var(--standard-popup-shadow) !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container.empty .editor-group-letterpress {
@@ -135,15 +147,15 @@
 .editor-group-container:after{
   content:'';
   height:800px;
-  width:100%;
+  width:80%;
   display:block;
   background-image:
     repeating-linear-gradient(90deg, var(--grid-line) 0 1px, var(--clear) 1px 40px),
     repeating-linear-gradient(0deg, var(--grid-line) 0 1px, var(--clear) 1px 10px);
   background-position:bottom;
   background-repeat:repeat;
-  background-size:20px 5px;
-  left: -25px;
+  background-size:40px 10px;
+  left: 10%;
   position: absolute;
   pointer-events: none;
   bottom: 0;
@@ -267,8 +279,7 @@ canvas {
 }
 
 .monaco-editor .line-numbers {
-  color: var(--primary-veil);
-  text-shadow: 0 0 2px var(--bg-panel), 0 0 35px var(--lightest44), 0 0 10px var(--primary-veil), 0 0 2px var(--primary-veil);
+  color: var(--lightest59);
 }
 
 .monaco-list .monaco-list-rows {

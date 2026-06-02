@@ -19,15 +19,14 @@
 
 
 export const palette = {
-
   primary: "#ff7864",
   primaryTransparent: "#ff786400",
   primaryFog: "#ff786433",
   primaryVeil: "#ff786466",
   primaryMuted: "#ff786499",
   primaryLighter1: "#ffa078",
-  secondary: "#6478ff",
-  secondaryAlt: "#78a0ff",
+  secondary: "#78a0ff",
+  secondaryAlt: "#6478ff",
   alternate: "#77fe9b",
   alternateWash: "#77fe9b33",
   alternateFaint: "#77fe9b22",
@@ -62,7 +61,7 @@ export const palette = {
   negative: "#ff7864a4",
   overlayStrong: "#000000aa",
   clear: "rgba(0,0,0,0)",
-  gridLine: "#7f7f7f66",
+  gridLine: "#7f7f7f16",
   gradientStart: "#282333",
   gradientEnd: "#4f4566",
   pulseStart: "#77fe9b00",
