@@ -1,0 +1,44 @@
+{
+	"name": "danwave-theme",
+	"displayName": "DanWave",
+	"description": "A simplified SynthWave-style theme with animated background",
+	"version": "0.0.1",
+	"author": "Danie",
+	"publisher": "danie",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/danie/danwave"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"keywords": [
+		"retro",
+		"80s",
+		"vaporwave",
+		"synthwave",
+		"fluoromachine",
+		"animated",
+		"theme"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "DanWave",
+				"uiTheme": "vs-dark",
+				"path": "./themes/danwave.json"
+			}
+		]
+	},
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
+	"dependencies": {
+		"vsce": "^1.100.1"
+	}
+}
