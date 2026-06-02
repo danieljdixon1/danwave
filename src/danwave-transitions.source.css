@@ -24,7 +24,7 @@
 /* tooltips */
 
 .monaco-editor .monaco-hover {
-    background-color: #262335;
+    background-color: var(--bg-editor);
     display: block!important;
     padding: 20px;
     transition: opacity 1s !important;
@@ -38,13 +38,13 @@
 
 @keyframes tooltippulse {
     0% {  
-        box-shadow: 0 0 0 0 rgba(255, 0, 242, 0);   
+        box-shadow: 0 0 0 0 var(--pulse-start);   
     }
     50% {
-        box-shadow: 0 0 85px 0 rgba(0, 217, 255, 0.5);  
+        box-shadow: 0 0 85px 0 var(--pulse-mid);  
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(255, 0, 242, 0);
+        box-shadow: 0 0 0 0 var(--pulse-start);
     }    
 }
 
@@ -57,7 +57,7 @@
     height: 4px;
     background-size: 200% 200%;
     width: 100%;
-    background-image: linear-gradient(to right, #fc28a8, #03edf9, #fc28a8, #03edf9, #fc28a8);
+    background-image: linear-gradient(to right, var(--alternate), var(--secondary-alt), var(--alternate), var(--secondary-alt), var(--alternate));
 
     animation: neonline 2s infinite;
 }
@@ -83,7 +83,7 @@
     animation: neonline2 2s infinite;
     background-size: 200% 200%!important;
     width: 100%;
-    background-image: linear-gradient(to right, #fc28a8, #03edf9, #fc28a8, #03edf9, #fc28a8)!important;
+    background-image: linear-gradient(to right, var(--alternate), var(--secondary-alt), var(--alternate), var(--secondary-alt), var(--alternate))!important;
 }
 
 @keyframes neonline2 {
@@ -99,22 +99,22 @@
 
 
 .monaco-editor .selected-text {
-    /* background-color: #000000aa!important;
-    box-shadow: 0 0 35px 5px #ff008d55;
-    color: #fff!important; */
+    /* background-color: var(--overlay-strong)!important;
+    box-shadow: 0 0 35px 5px var(--alternate-glow-strong);
+    color: var(--lightest)!important; */
 
-    background-color: #9a789a!important;
+    background-color: var(--accent-tint)!important;
     box-shadow: 
-        1px 2px 1px #000000,
-        2px 4px 1px #000000,
-        0px 2px 1px #000000,
-        1px 4px 1px #000000;
-    color: #fff!important;
+        1px 2px 1px var(--darkest),
+        2px 4px 1px var(--darkest),
+        0px 2px 1px var(--darkest),
+        1px 4px 1px var(--darkest);
+    color: var(--lightest)!important;
  }
 
 
 .monaco-editor .cursor { 
-    box-shadow: 0 0 15px 2px #00c3ff;
+    box-shadow: 0 0 15px 2px var(--cursor-glow);
     animation: cursor .5s infinite linear;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .view-line .inline-folded:after {
-    color:yellow;
+    color:var(--emphasis-pure);
     border-radius: 5px;
     animation: colapse .5s linear;
 }
@@ -132,16 +132,16 @@
 
 
 .monaco-editor .line-numbers.active-line-number {
-    color: turquoise;
-    text-shadow: 0 0 1px yellow!important;
+    color: var(--secondary-info);
+    text-shadow: 0 0 1px var(--emphasis-pure)!important;
 }
 
 
 
 
 /* canvas.minimap-decorations-layer {
-    background-color: transparent !important;
-    background-image: linear-gradient(to bottom, #200933 75%, #3d0b43);
+    background-color: var(--clear) !important;
+    background-image: linear-gradient(to bottom, var(--bg-gradient-low) 75%, var(--bg-gradient-high));
     background-size: auto 100vh;
     background-position: top;
     background-repeat: no-repeat;
@@ -157,24 +157,24 @@
 
 @keyframes colapse {
     0% {  
-        background-color:yellow;
-        box-shadow: 0 0 5px 0 yellow;      
+        background-color:var(--emphasis-pure);
+        box-shadow: 0 0 5px 0 var(--emphasis-pure);      
     }
     70% {
-        background-color: yellow;
-        box-shadow: 0 0 35px 10px yellow;
+        background-color: var(--emphasis-pure);
+        box-shadow: 0 0 35px 10px var(--emphasis-pure);
     }
     100% {
-        background-color: transparent;
+        background-color: var(--clear);
     }    
 }
 
 @keyframes cursor {
     0% {  
-        box-shadow: 0 0 5px 0 #00c3ff;      
+        box-shadow: 0 0 5px 0 var(--cursor-glow);      
     }
     100% {
-        box-shadow: 0 0 35px 5px #00c3ff;
+        box-shadow: 0 0 35px 5px var(--cursor-glow);
     }
 }
 
@@ -204,7 +204,7 @@
     font-size: 5em;
     font-family: 'Tourney', cursive;
 
-    color: #fc28a822;
+    color: var(--alternate-ghost);
     position: absolute;
     bottom: 40px;
     width: 100%;
@@ -212,7 +212,7 @@
     height: 120px;
     
 
-    text-shadow: 0 0 30px #fc28a8;
+    text-shadow: 0 0 30px var(--alternate);
 
     animation: cnt 10s infinite linear;
 
@@ -224,13 +224,14 @@
     0% {  
         bottom: 150px;
         font-size: 0.1em;
-        color: #fc28a822;       
-        text-shadow: 0 0 5px #fc28a811;
+        color: var(--alternate-ghost);       
+        text-shadow: 0 0 5px var(--alternate-faint);
     }
     100% {
         bottom: -400px;
         font-size: 20em;       
-        color: #fc28a855;
-        text-shadow: 0 0 30px #fc28a8;
+        color: var(--alternate-mid);
+        text-shadow: 0 0 30px var(--alternate);
     }
 }
+

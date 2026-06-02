@@ -118,7 +118,7 @@
     "terminal.ansiBrightGreen": "#8a2dc0",
     "terminal.ansiBrightMagenta": "#61e2ff",
     "terminal.ansiBrightRed": "#8a2dc0",
-    "terminal.ansiBrightYellow": "#f92aad",
+    "terminal.ansiBrightYellow": "#fc28a8",
     "terminal.ansiCyan": "#03edf9",
     "terminal.ansiGreen": "#8a2dc0",
     "terminal.ansiMagenta": "#61e2ff",
@@ -129,7 +129,7 @@
     "terminalCursor.foreground": "#03edf9",
     "debugToolBar.background": "#241b2f",
     "walkThrough.embeddedEditorBackground": "#232530",
-    "gitDecoration.modifiedResourceForeground": "#ffffffee",
+    "gitDecoration.modifiedResourceForeground": "#b893ceee",
     "gitDecoration.deletedResourceForeground": "#8a2dc0",
     "gitDecoration.addedResourceForeground": "#8a2dc0cc",
     "gitDecoration.untrackedResourceForeground": "#8a2dc0",
@@ -195,7 +195,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -260,14 +260,14 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
       "name": "Tag attribute HTML",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "#f92aad",
+        "foreground": "#fc28a8",
         "fontStyle": "italic"
       }
     },
@@ -285,7 +285,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#fc199a"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -312,21 +312,21 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
       "name": "Control keyword",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
       "name": "Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -337,7 +337,7 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -389,7 +389,7 @@
       "name": "Embedded puncuation",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -409,7 +409,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#fc199a"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -447,7 +447,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "#fc199a"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -496,7 +496,7 @@
       "name": "Markup link",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "#fc199a"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -541,7 +541,7 @@
       "name": "C++ operators",
       "scope": "source.cpp keyword.operator",
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -602,7 +602,7 @@
         "support.type.property-name.json.arm-template"
       ],
       "settings": {
-        "foreground": "#f92aad"
+        "foreground": "#fc28a8"
       }
     },
     {
@@ -614,7 +614,7 @@
         "entity.name.tag.userfunction.tle.arm-template"
       ],
       "settings": {
-        "foreground": "#61e2ffff",
+        "foreground": "#61e2ff",
         "fontStyle": "bold"
       }
     },
@@ -625,7 +625,7 @@
         "support.type.parameters.tle.arm-template"
       ],
       "settings": {
-        "foreground": "#36f9f6ff",
+        "foreground": "#36f9f6",
         "fontStyle": ""
       }
     }

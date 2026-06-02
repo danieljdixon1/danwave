@@ -2,61 +2,61 @@
   "name": "SynthWave 84",
   "type": "dark",
   "colors": {
-    "focusBorder": "$palette.graphite",
-    "foreground": "$palette.chrome",
-    "widget.shadow": "$palette.widget",
+    "focusBorder": "$palette.bgDarkest",
+    "foreground": "$palette.lightest",
+    "widget.shadow": "$palette.bgMuted",
     "selection.background": "$palette.surface59",
-    "errorForeground": "$palette.electricPurple",
-    "textLink.activeForeground": "$palette.neonCyan",
-    "textLink.foreground": "$palette.electricPurple",
-    "button.background": "$palette.widget",
-    "dropdown.background": "$palette.overlay",
-    "dropdown.listBackground": "$palette.widget",
-    "input.background": "$palette.widget",
-    "inputOption.activeBorder": "$palette.neonCyanSoft",
-    "inputValidation.errorBackground": "$palette.electricPurpleVeil",
-    "inputValidation.errorBorder": "$palette.electricPurpleTransparent",
-    "scrollbar.shadow": "$palette.widget",
+    "errorForeground": "$palette.primary",
+    "textLink.activeForeground": "$palette.secondary",
+    "textLink.foreground": "$palette.primary",
+    "button.background": "$palette.bgMuted",
+    "dropdown.background": "$palette.bgOverlay",
+    "dropdown.listBackground": "$palette.bgMuted",
+    "input.background": "$palette.bgMuted",
+    "inputOption.activeBorder": "$palette.secondarySoft",
+    "inputValidation.errorBackground": "$palette.primaryVeil",
+    "inputValidation.errorBorder": "$palette.primaryTransparent",
+    "scrollbar.shadow": "$palette.bgMuted",
     "scrollbarSlider.activeBackground": "$palette.surface88",
     "scrollbarSlider.background": "$palette.surface1a",
     "scrollbarSlider.hoverBackground": "$palette.surface59",
-    "badge.foreground": "$palette.chrome",
-    "badge.background": "$palette.widget",
-    "progressBar.background": "$palette.electricPurple",
-    "list.activeSelectionBackground": "#2a213980",
-    "list.activeSelectionForeground": "$palette.chrome",
+    "badge.foreground": "$palette.lightest",
+    "badge.background": "$palette.bgMuted",
+    "progressBar.background": "$palette.primary",
+    "list.activeSelectionBackground": "$palette.bgMuted80",
+    "list.activeSelectionForeground": "$palette.lightest",
     "list.dropBackground": "$palette.surface66",
-    "list.focusBackground": "#2a213999",
-    "list.focusForeground": "$palette.chrome",
-    "list.highlightForeground": "$palette.electricPurple",
-    "list.hoverBackground": "#2a213999",
-    "list.hoverForeground": "$palette.chrome",
+    "list.focusBackground": "$palette.bgMuted99",
+    "list.focusForeground": "$palette.lightest",
+    "list.highlightForeground": "$palette.primary",
+    "list.hoverBackground": "$palette.bgMuted99",
+    "list.hoverForeground": "$palette.lightest",
     "list.inactiveSelectionBackground": "$palette.surface66",
-    "list.inactiveSelectionForeground": "$palette.chrome",
-    "list.inactiveFocusBackground": "#2a213999",
-    "list.errorForeground": "$palette.electricPurpleSolid",
-    "list.warningForeground": "$palette.electricPurpleWarning",
-    "activityBar.background": "$palette.activityBar",
+    "list.inactiveSelectionForeground": "$palette.lightest",
+    "list.inactiveFocusBackground": "$palette.bgMuted99",
+    "list.errorForeground": "$palette.primarySolid",
+    "list.warningForeground": "$palette.primaryMuted",
+    "activityBar.background": "$palette.bgBase",
     "activityBar.dropBackground": "$palette.surface66",
-    "activityBar.foreground": "$palette.chromeCc",
-    "activityBarBadge.background": "$palette.electricPurple",
-    "activityBarBadge.foreground": "$palette.widget",
-    "sideBar.background": "$palette.panel",
-    "sideBar.foreground": "$palette.chrome99",
+    "activityBar.foreground": "$palette.lightestCc",
+    "activityBarBadge.background": "$palette.primary",
+    "activityBarBadge.foreground": "$palette.bgMuted",
+    "sideBar.background": "$palette.bgPanel",
+    "sideBar.foreground": "$palette.lightest99",
     "sideBar.dropBackground": "$palette.surface4c",
-    "sideBarSectionHeader.background": "$palette.panel",
-    "sideBarSectionHeader.foreground": "$palette.chromeCa",
+    "sideBarSectionHeader.background": "$palette.bgPanel",
+    "sideBarSectionHeader.foreground": "$palette.lightestCa",
     "editorGroup.border": "$palette.border",
     "editorGroup.dropBackground": "$palette.surface4a",
-    "editorGroupHeader.tabsBackground": "$palette.panel",
-    "tab.border": "$palette.electricPurpleTransparent",
-    "tab.activeBorder": "$palette.electricPurple",
-    "tab.inactiveBackground": "$palette.editor",
-    "editor.background": "$palette.editor",
-    "editorLineNumber.foreground": "$palette.chrome10",
-    "editorLineNumber.activeForeground": "$palette.chrome73",
-    "editorCursor.background": "$palette.panel",
-    "editorCursor.foreground": "$palette.electricPurple",
+    "editorGroupHeader.tabsBackground": "$palette.bgPanel",
+    "tab.border": "$palette.primaryTransparent",
+    "tab.activeBorder": "$palette.primary",
+    "tab.inactiveBackground": "$palette.bgEditor",
+    "editor.background": "$palette.bgEditor",
+    "editorLineNumber.foreground": "$palette.lightest10",
+    "editorLineNumber.activeForeground": "$palette.lightest73",
+    "editorCursor.background": "$palette.bgPanel",
+    "editorCursor.foreground": "$palette.primary",
     "editor.selectionBackground": "$palette.selection",
     "editor.selectionHighlightBackground": "$palette.surface59",
     "editor.wordHighlightBackground": "$palette.surface88",
@@ -68,73 +68,73 @@
     "editor.lineHighlightBackground": "$palette.surface66",
     "editor.rangeHighlightBackground": "$palette.border39",
     "editorIndentGuide.background": "$palette.border39",
-    "editorIndentGuide.activeBackground": "$palette.widget",
+    "editorIndentGuide.activeBackground": "$palette.bgMuted",
     "editorRuler.foreground": "$palette.surface33",
-    "editorCodeLens.foreground": "$palette.chromeCc",
+    "editorCodeLens.foreground": "$palette.lightestCc",
     "editorBracketMatch.background": "$palette.surface66",
     "editorBracketMatch.border": "$palette.border",
-    "editorOverviewRuler.border": "$palette.surfaceB3",
+    "editorOverviewRuler.border": "$palette.surfaceStrong",
     "editorOverviewRuler.findMatchForeground": "$palette.surface",
     "editorOverviewRuler.modifiedForeground": "$palette.border99",
-    "editorOverviewRuler.addedForeground": "$palette.success",
-    "editorOverviewRuler.deletedForeground": "$palette.electricPurpleTint",
-    "editorOverviewRuler.errorForeground": "$palette.electricPurpleStrong",
-    "editorOverviewRuler.warningForeground": "$palette.electricPurpleMuted",
-    "editorError.foreground": "$palette.electricPurple",
-    "editorWarning.foreground": "$palette.electricPurpleMuted",
-    "editorGutter.modifiedBackground": "$palette.borderAf",
-    "editorGutter.addedBackground": "$palette.successSolid",
-    "editorGutter.deletedBackground": "$palette.danger",
-    "diffEditor.insertedTextBackground": "$palette.diffInsert",
-    "diffEditor.removedTextBackground": "$palette.electricPurpleFog",
-    "editorWidget.background": "$palette.overlay",
-    "editorWidget.border": "$palette.overlay",
-    "editorSuggestWidget.highlightForeground": "$palette.electricPurple",
+    "editorOverviewRuler.addedForeground": "$palette.positive",
+    "editorOverviewRuler.deletedForeground": "$palette.primaryTint",
+    "editorOverviewRuler.errorForeground": "$palette.primaryStrong",
+    "editorOverviewRuler.warningForeground": "$palette.primaryMutedStrong",
+    "editorError.foreground": "$palette.primary",
+    "editorWarning.foreground": "$palette.primaryMutedStrong",
+    "editorGutter.modifiedBackground": "$palette.borderStrong",
+    "editorGutter.addedBackground": "$palette.positiveSolid",
+    "editorGutter.deletedBackground": "$palette.negative",
+    "diffEditor.insertedTextBackground": "$palette.positiveWash",
+    "diffEditor.removedTextBackground": "$palette.primaryFog",
+    "editorWidget.background": "$palette.bgOverlay",
+    "editorWidget.border": "$palette.bgOverlay",
+    "editorSuggestWidget.highlightForeground": "$palette.primary",
     "peekView.border": "$palette.border",
-    "peekViewEditor.background": "$palette.overlay",
+    "peekViewEditor.background": "$palette.bgOverlay",
     "peekViewEditor.matchHighlightBackground": "$palette.surface59",
-    "peekViewResult.background": "$palette.overlay",
+    "peekViewResult.background": "$palette.bgOverlay",
     "peekViewResult.matchHighlightBackground": "$palette.surface59",
-    "peekViewResult.selectionBackground": "#2a213980",
-    "peekViewTitle.background": "$palette.overlay",
-    "panelTitle.activeBorder": "$palette.electricPurple",
-    "statusBar.background": "$palette.panel",
-    "statusBar.foreground": "$palette.chrome80",
-    "statusBar.debuggingBackground": "$palette.electricPurple",
-    "statusBar.debuggingForeground": "#08080f",
-    "statusBar.noFolderBackground": "$palette.panel",
-    "statusBarItem.hoverBackground": "$palette.widget",
-    "statusBarItem.prominentBackground": "$palette.widget",
+    "peekViewResult.selectionBackground": "$palette.bgMuted80",
+    "peekViewTitle.background": "$palette.bgOverlay",
+    "panelTitle.activeBorder": "$palette.primary",
+    "statusBar.background": "$palette.bgPanel",
+    "statusBar.foreground": "$palette.lightest80",
+    "statusBar.debuggingBackground": "$palette.primary",
+    "statusBar.debuggingForeground": "$palette.darkest",
+    "statusBar.noFolderBackground": "$palette.bgPanel",
+    "statusBarItem.hoverBackground": "$palette.bgMuted",
+    "statusBarItem.prominentBackground": "$palette.bgMuted",
     "statusBarItem.prominentHoverBackground": "$palette.surface",
-    "titleBar.activeBackground": "$palette.panel",
-    "titleBar.inactiveBackground": "$palette.panel",
-    "extensionButton.prominentBackground": "$palette.electricPurple",
-    "extensionButton.prominentHoverBackground": "$palette.neonCyan",
-    "pickerGroup.foreground": "#8a2dc0ea",
-    "terminal.foreground": "$palette.chrome",
-    "terminal.ansiBlue": "$palette.glowCyan",
-    "terminal.ansiBrightBlue": "$palette.glowCyan",
-    "terminal.ansiBrightCyan": "$palette.glowCyan",
-    "terminal.ansiBrightGreen": "$palette.electricPurple",
-    "terminal.ansiBrightMagenta": "$palette.neonCyan",
-    "terminal.ansiBrightRed": "$palette.electricPurple",
-    "terminal.ansiBrightYellow": "$palette.magenta",
-    "terminal.ansiCyan": "$palette.glowCyan",
-    "terminal.ansiGreen": "$palette.electricPurple",
-    "terminal.ansiMagenta": "$palette.neonCyan",
-    "terminal.ansiRed": "$palette.electricPurple",
-    "terminal.ansiYellow": "$palette.electricPurple",
+    "titleBar.activeBackground": "$palette.bgPanel",
+    "titleBar.inactiveBackground": "$palette.bgPanel",
+    "extensionButton.prominentBackground": "$palette.primary",
+    "extensionButton.prominentHoverBackground": "$palette.secondary",
+    "pickerGroup.foreground": "$palette.primaryEmphasis",
+    "terminal.foreground": "$palette.lightest",
+    "terminal.ansiBlue": "$palette.secondaryAlt",
+    "terminal.ansiBrightBlue": "$palette.secondaryAlt",
+    "terminal.ansiBrightCyan": "$palette.secondaryAlt",
+    "terminal.ansiBrightGreen": "$palette.primary",
+    "terminal.ansiBrightMagenta": "$palette.secondary",
+    "terminal.ansiBrightRed": "$palette.primary",
+    "terminal.ansiBrightYellow": "$palette.alternate",
+    "terminal.ansiCyan": "$palette.secondaryAlt",
+    "terminal.ansiGreen": "$palette.primary",
+    "terminal.ansiMagenta": "$palette.secondary",
+    "terminal.ansiRed": "$palette.primary",
+    "terminal.ansiYellow": "$palette.primary",
     "terminal.selectionBackground": "$palette.surface4d",
-    "terminalCursor.background": "$palette.chrome",
-    "terminalCursor.foreground": "$palette.glowCyan",
-    "debugToolBar.background": "$palette.panel",
-    "walkThrough.embeddedEditorBackground": "$palette.overlay",
-    "gitDecoration.modifiedResourceForeground": "#b893ceee",
-    "gitDecoration.deletedResourceForeground": "$palette.electricPurple",
-    "gitDecoration.addedResourceForeground": "$palette.electricPurpleMuted",
-    "gitDecoration.untrackedResourceForeground": "$palette.electricPurple",
-    "gitDecoration.ignoredResourceForeground": "$palette.chrome59",
-    "breadcrumbPicker.background": "$palette.overlay"
+    "terminalCursor.background": "$palette.lightest",
+    "terminalCursor.foreground": "$palette.secondaryAlt",
+    "debugToolBar.background": "$palette.bgPanel",
+    "walkThrough.embeddedEditorBackground": "$palette.bgOverlay",
+    "gitDecoration.modifiedResourceForeground": "$palette.primaryAccent",
+    "gitDecoration.deletedResourceForeground": "$palette.primary",
+    "gitDecoration.addedResourceForeground": "$palette.primaryMutedStrong",
+    "gitDecoration.untrackedResourceForeground": "$palette.primary",
+    "gitDecoration.ignoredResourceForeground": "$palette.lightest59",
+    "breadcrumbPicker.background": "$palette.bgOverlay"
   },
   "tokenColors": [
     {
@@ -153,14 +153,14 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Punctuation within templates",
       "scope": "string.template meta.embedded.line",
       "settings": {
-        "foreground": "$palette.mutedText"
+        "foreground": "$palette.neutral"
       }
     },
     {
@@ -170,14 +170,14 @@
         "entity.name.variable"
       ],
       "settings": {
-        "foreground": "$palette.neonCyan"
+        "foreground": "$palette.secondary"
       }
     },
     {
       "name": "Language variable",
       "scope": "variable.language",
       "settings": {
-        "foreground": "$palette.electricPurple",
+        "foreground": "$palette.primary",
         "fontStyle": "bold"
       }
     },
@@ -195,56 +195,56 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Constant",
       "scope": "constant",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Regex",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Language constant (boolean, null)",
       "scope": "constant.language",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Character escape",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "$palette.aqua"
+        "foreground": "$palette.secondaryBright"
       }
     },
     {
       "name": "Entity",
       "scope": "entity.name",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "HTML or XML tag",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "$palette.amber"
+        "foreground": "$palette.emphasis"
       }
     },
     {
@@ -253,21 +253,21 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "$palette.aqua"
+        "foreground": "$palette.secondaryBright"
       }
     },
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Tag attribute HTML",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "$palette.magenta",
+        "foreground": "$palette.alternate",
         "fontStyle": "italic"
       }
     },
@@ -278,14 +278,14 @@
         "meta.attribute.class.html"
       ],
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "$palette.hotPink"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -295,7 +295,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "$palette.aqua"
+        "foreground": "$palette.secondaryBright"
       }
     },
     {
@@ -305,28 +305,28 @@
         "keyword.control.import.js"
       ],
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Control keyword",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -337,35 +337,35 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Unit",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Support function",
       "scope": "support.function",
       "settings": {
-        "foreground": "$palette.aqua"
+        "foreground": "$palette.secondaryBright"
       }
     },
     {
       "name": "Support variable",
       "scope": "support.variable",
       "settings": {
-        "foreground": "$palette.neonCyan"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -375,21 +375,21 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "$palette.neonCyan"
+        "foreground": "$palette.secondary"
       }
     },
     {
       "name": "Key-value separator",
       "scope": "punctuation.separator.key-value",
       "settings": {
-        "foreground": "$palette.mutedText"
+        "foreground": "$palette.neutral"
       }
     },
     {
       "name": "Embedded puncuation",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -399,7 +399,7 @@
         "punctuation.definition.template-expression.end"
       ],
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
@@ -409,35 +409,35 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "$palette.hotPink"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "JS Switch control",
       "scope": "switch-block.expr.js",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Color",
       "scope": "constant.other.color",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Font names",
       "scope": "support.constant.font-name",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "CSS #id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "$palette.aqua"
+        "foreground": "$palette.secondaryBright"
       }
     },
     {
@@ -447,14 +447,14 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "$palette.hotPink"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "CSS support functions (rgb)",
       "scope": "support.function.misc.css",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
@@ -464,7 +464,7 @@
         "entity.name.section"
       ],
       "settings": {
-        "foreground": "$palette.neonCyan"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -474,14 +474,14 @@
         "keyword.operator.assignment"
       ],
       "settings": {
-        "foreground": "$palette.chromeEe"
+        "foreground": "$palette.lightestEe"
       }
     },
     {
       "name": "Markup quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "$palette.mutedTextCc",
+        "foreground": "$palette.neutralSoft",
         "fontStyle": "italic"
       }
     },
@@ -489,42 +489,42 @@
       "name": "Markup list",
       "scope": "beginning.punctuation.definition.list",
       "settings": {
-        "foreground": "$palette.neonCyan"
+        "foreground": "$palette.secondary"
       }
     },
     {
       "name": "Markup link",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "$palette.hotPink"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Markup link description",
       "scope": "string.other.link.description",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Python function call",
       "scope": "meta.function-call.generic.python",
       "settings": {
-        "foreground": "$palette.aqua"
+        "foreground": "$palette.secondaryBright"
       }
     },
     {
       "name": "C# storage type",
       "scope": "storage.type.cs",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "C# local variable",
       "scope": "entity.name.variable.local.cs",
       "settings": {
-        "foreground": "$palette.neonCyan"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -534,14 +534,14 @@
         "entity.name.variable.property.cs"
       ],
       "settings": {
-        "foreground": "$palette.neonCyan"
+        "foreground": "$palette.secondary"
       }
     },
     {
       "name": "C++ operators",
       "scope": "source.cpp keyword.operator",
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -551,14 +551,14 @@
         "source.elixir meta.module.elixir entity.name.class.elixir"
       ],
       "settings": {
-        "foreground": "$palette.aqua"
+        "foreground": "$palette.secondaryBright"
       }
     },
     {
       "name": "Elixir Functions",
       "scope": "source.elixir entity.name.function",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
@@ -568,14 +568,14 @@
         "source.elixir constant.other.keywords.elixir"
       ],
       "settings": {
-        "foreground": "$palette.aqua"
+        "foreground": "$palette.secondaryBright"
       }
     },
     {
       "name": "Elixir String Punctuation",
       "scope": "source.elixir punctuation.definition.string",
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
@@ -585,14 +585,14 @@
         "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
       ],
       "settings": {
-        "foreground": "$palette.electricPurple"
+        "foreground": "$palette.primary"
       }
     },
     {
       "name": "Elixir Binary Punctuation",
       "scope": "source.elixir .punctuation.binary.elixir",
       "settings": {
-        "foreground": "$palette.neonCyan",
+        "foreground": "$palette.secondary",
         "fontStyle": "italic"
       }
     },
@@ -602,7 +602,7 @@
         "support.type.property-name.json.arm-template"
       ],
       "settings": {
-        "foreground": "$palette.magenta"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -614,7 +614,7 @@
         "entity.name.tag.userfunction.tle.arm-template"
       ],
       "settings": {
-        "foreground": "#61e2ffff",
+        "foreground": "$palette.secondary",
         "fontStyle": "bold"
       }
     },
@@ -625,9 +625,10 @@
         "support.type.parameters.tle.arm-template"
       ],
       "settings": {
-        "foreground": "#36f9f6ff",
+        "foreground": "$palette.secondaryBright",
         "fontStyle": ""
       }
     }
   ]
 }
+
