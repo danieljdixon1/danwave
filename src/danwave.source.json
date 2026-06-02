@@ -5,7 +5,7 @@
     "focusBorder": "$palette.bgDarkest",
     "foreground": "$palette.lightest",
     "widget.shadow": "$palette.bgMuted",
-    "selection.background": "$palette.surface59",
+    "selection.background": "$palette.surface4d",
     "errorForeground": "$palette.primary",
     "textLink.activeForeground": "$palette.secondary",
     "textLink.foreground": "$palette.primary",
@@ -13,93 +13,93 @@
     "dropdown.background": "$palette.bgOverlay",
     "dropdown.listBackground": "$palette.bgMuted",
     "input.background": "$palette.bgMuted",
-    "inputOption.activeBorder": "$palette.secondarySoft",
+    "inputOption.activeBorder": "$palette.secondary",
     "inputValidation.errorBackground": "$palette.primaryVeil",
     "inputValidation.errorBorder": "$palette.primaryTransparent",
     "scrollbar.shadow": "$palette.bgMuted",
-    "scrollbarSlider.activeBackground": "$palette.surface88",
+    "scrollbarSlider.activeBackground": "$palette.surface4d",
     "scrollbarSlider.background": "$palette.surface1a",
-    "scrollbarSlider.hoverBackground": "$palette.surface59",
+    "scrollbarSlider.hoverBackground": "$palette.surface4d",
     "badge.foreground": "$palette.lightest",
     "badge.background": "$palette.bgMuted",
     "progressBar.background": "$palette.primary",
     "list.activeSelectionBackground": "$palette.bgMuted80",
     "list.activeSelectionForeground": "$palette.lightest",
-    "list.dropBackground": "$palette.surface66",
+    "list.dropBackground": "$palette.surface4d",
     "list.focusBackground": "$palette.bgMuted99",
     "list.focusForeground": "$palette.lightest",
     "list.highlightForeground": "$palette.primary",
     "list.hoverBackground": "$palette.bgMuted99",
     "list.hoverForeground": "$palette.lightest",
-    "list.inactiveSelectionBackground": "$palette.surface66",
+    "list.inactiveSelectionBackground": "$palette.surface4d",
     "list.inactiveSelectionForeground": "$palette.lightest",
     "list.inactiveFocusBackground": "$palette.bgMuted99",
-    "list.errorForeground": "$palette.primarySolid",
+    "list.errorForeground": "$palette.primaryMuted",
     "list.warningForeground": "$palette.primaryMuted",
     "activityBar.background": "$palette.bgBase",
-    "activityBar.dropBackground": "$palette.surface66",
-    "activityBar.foreground": "$palette.lightestCc",
+    "activityBar.dropBackground": "$palette.surface4d",
+    "activityBar.foreground": "$palette.lightestCa",
     "activityBarBadge.background": "$palette.primary",
     "activityBarBadge.foreground": "$palette.bgMuted",
     "sideBar.background": "$palette.bgPanel",
-    "sideBar.foreground": "$palette.lightest99",
-    "sideBar.dropBackground": "$palette.surface4c",
+    "sideBar.foreground": "$palette.lightest59",
+    "sideBar.dropBackground": "$palette.surface1a",
     "sideBarSectionHeader.background": "$palette.bgPanel",
     "sideBarSectionHeader.foreground": "$palette.lightestCa",
     "editorGroup.border": "$palette.border",
-    "editorGroup.dropBackground": "$palette.surface4a",
+    "editorGroup.dropBackground": "$palette.surface1a",
     "editorGroupHeader.tabsBackground": "$palette.bgPanel",
     "tab.border": "$palette.primaryTransparent",
     "tab.activeBorder": "$palette.primary",
     "tab.inactiveBackground": "$palette.bgEditor",
     "editor.background": "$palette.bgEditor",
     "editorLineNumber.foreground": "$palette.lightest10",
-    "editorLineNumber.activeForeground": "$palette.lightest73",
+    "editorLineNumber.activeForeground": "$palette.lightest59",
     "editorCursor.background": "$palette.bgPanel",
     "editorCursor.foreground": "$palette.primary",
     "editor.selectionBackground": "$palette.selection",
-    "editor.selectionHighlightBackground": "$palette.surface59",
-    "editor.wordHighlightBackground": "$palette.surface88",
-    "editor.wordHighlightStrongBackground": "$palette.surface88",
-    "editor.findMatchBackground": "$palette.surface59",
-    "editor.findMatchHighlightBackground": "$palette.surface33",
+    "editor.selectionHighlightBackground": "$palette.surface4d",
+    "editor.wordHighlightBackground": "$palette.surface4d",
+    "editor.wordHighlightStrongBackground": "$palette.surface4d",
+    "editor.findMatchBackground": "$palette.surface4d",
+    "editor.findMatchHighlightBackground": "$palette.surface1a",
     "editor.findRangeHighlightBackground": "$palette.surface1a",
     "editor.hoverHighlightBackground": "$palette.surface4d",
-    "editor.lineHighlightBackground": "$palette.surface66",
+    "editor.lineHighlightBackground": "$palette.surface4d",
     "editor.rangeHighlightBackground": "$palette.border39",
     "editorIndentGuide.background": "$palette.border39",
     "editorIndentGuide.activeBackground": "$palette.bgMuted",
-    "editorRuler.foreground": "$palette.surface33",
-    "editorCodeLens.foreground": "$palette.lightestCc",
-    "editorBracketMatch.background": "$palette.surface66",
+    "editorRuler.foreground": "$palette.surface1a",
+    "editorCodeLens.foreground": "$palette.lightestCa",
+    "editorBracketMatch.background": "$palette.surface4d",
     "editorBracketMatch.border": "$palette.border",
-    "editorOverviewRuler.border": "$palette.surfaceStrong",
+    "editorOverviewRuler.border": "$palette.surface4d",
     "editorOverviewRuler.findMatchForeground": "$palette.surface",
-    "editorOverviewRuler.modifiedForeground": "$palette.border99",
+    "editorOverviewRuler.modifiedForeground": "$palette.border39",
     "editorOverviewRuler.addedForeground": "$palette.positive",
-    "editorOverviewRuler.deletedForeground": "$palette.primaryTint",
-    "editorOverviewRuler.errorForeground": "$palette.primaryStrong",
-    "editorOverviewRuler.warningForeground": "$palette.primaryMutedStrong",
+    "editorOverviewRuler.deletedForeground": "$palette.primaryVeil",
+    "editorOverviewRuler.errorForeground": "$palette.primaryMuted",
+    "editorOverviewRuler.warningForeground": "$palette.primaryMuted",
     "editorError.foreground": "$palette.primary",
-    "editorWarning.foreground": "$palette.primaryMutedStrong",
-    "editorGutter.modifiedBackground": "$palette.borderStrong",
+    "editorWarning.foreground": "$palette.primaryMuted",
+    "editorGutter.modifiedBackground": "$palette.border39",
     "editorGutter.addedBackground": "$palette.positiveSolid",
     "editorGutter.deletedBackground": "$palette.negative",
-    "diffEditor.insertedTextBackground": "$palette.positiveWash",
+    "diffEditor.insertedTextBackground": "$palette.positive",
     "diffEditor.removedTextBackground": "$palette.primaryFog",
     "editorWidget.background": "$palette.bgOverlay",
     "editorWidget.border": "$palette.bgOverlay",
     "editorSuggestWidget.highlightForeground": "$palette.primary",
     "peekView.border": "$palette.border",
     "peekViewEditor.background": "$palette.bgOverlay",
-    "peekViewEditor.matchHighlightBackground": "$palette.surface59",
+    "peekViewEditor.matchHighlightBackground": "$palette.surface4d",
     "peekViewResult.background": "$palette.bgOverlay",
-    "peekViewResult.matchHighlightBackground": "$palette.surface59",
+    "peekViewResult.matchHighlightBackground": "$palette.surface4d",
     "peekViewResult.selectionBackground": "$palette.bgMuted80",
     "peekViewTitle.background": "$palette.bgOverlay",
     "panelTitle.activeBorder": "$palette.primary",
     "statusBar.background": "$palette.bgPanel",
-    "statusBar.foreground": "$palette.lightest80",
+    "statusBar.foreground": "$palette.lightest59",
     "statusBar.debuggingBackground": "$palette.primary",
     "statusBar.debuggingForeground": "$palette.darkest",
     "statusBar.noFolderBackground": "$palette.bgPanel",
@@ -110,7 +110,7 @@
     "titleBar.inactiveBackground": "$palette.bgPanel",
     "extensionButton.prominentBackground": "$palette.primary",
     "extensionButton.prominentHoverBackground": "$palette.secondary",
-    "pickerGroup.foreground": "$palette.primaryEmphasis",
+    "pickerGroup.foreground": "$palette.primaryMuted",
     "terminal.foreground": "$palette.lightest",
     "terminal.ansiBlue": "$palette.secondaryAlt",
     "terminal.ansiBrightBlue": "$palette.secondaryAlt",
@@ -129,9 +129,9 @@
     "terminalCursor.foreground": "$palette.secondaryAlt",
     "debugToolBar.background": "$palette.bgPanel",
     "walkThrough.embeddedEditorBackground": "$palette.bgOverlay",
-    "gitDecoration.modifiedResourceForeground": "$palette.primaryAccent",
+    "gitDecoration.modifiedResourceForeground": "$palette.primaryMuted",
     "gitDecoration.deletedResourceForeground": "$palette.primary",
-    "gitDecoration.addedResourceForeground": "$palette.primaryMutedStrong",
+    "gitDecoration.addedResourceForeground": "$palette.primaryMuted",
     "gitDecoration.untrackedResourceForeground": "$palette.primary",
     "gitDecoration.ignoredResourceForeground": "$palette.lightest59",
     "breadcrumbPicker.background": "$palette.bgOverlay"
@@ -230,7 +230,7 @@
       "name": "Character escape",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "$palette.secondaryBright"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -253,7 +253,7 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "$palette.secondaryBright"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -295,7 +295,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "$palette.secondaryBright"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -358,7 +358,7 @@
       "name": "Support function",
       "scope": "support.function",
       "settings": {
-        "foreground": "$palette.secondaryBright"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -437,7 +437,7 @@
       "name": "CSS #id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "$palette.secondaryBright"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -474,7 +474,7 @@
         "keyword.operator.assignment"
       ],
       "settings": {
-        "foreground": "$palette.lightestEe"
+        "foreground": "$palette.lightestCa"
       }
     },
     {
@@ -510,7 +510,7 @@
       "name": "Python function call",
       "scope": "meta.function-call.generic.python",
       "settings": {
-        "foreground": "$palette.secondaryBright"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -551,7 +551,7 @@
         "source.elixir meta.module.elixir entity.name.class.elixir"
       ],
       "settings": {
-        "foreground": "$palette.secondaryBright"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -568,7 +568,7 @@
         "source.elixir constant.other.keywords.elixir"
       ],
       "settings": {
-        "foreground": "$palette.secondaryBright"
+        "foreground": "$palette.secondary"
       }
     },
     {
@@ -625,7 +625,7 @@
         "support.type.parameters.tle.arm-template"
       ],
       "settings": {
-        "foreground": "$palette.secondaryBright",
+        "foreground": "$palette.secondary",
         "fontStyle": ""
       }
     }

@@ -1,12 +1,12 @@
 
 .mtk3, .mtk6 {
   color: var(--secondary);
-  text-shadow: 0 0 2px var(--shadow), 0 0 5px var(--secondary-alt-soft), 0 0 10px var(--emphasis-alt-soft);
+  text-shadow: 0 0 2px var(--shadow), 0 0 5px var(--secondary-alt), 0 0 10px var(--emphasis-soft);
 }
 
 .mtk3.mtki {
   font-style: italic;
-  color: var(--primary-lighter2);
+  color: var(--primary-lighter1);
 }
 
 .mtk4, .mtk5, .mtk11, .mtk14 {
@@ -14,25 +14,25 @@
 }
 
 .mtk8, .mtk9 {
-  /* color: var(--warning-accent); */
+  /* color: var(--emphasis); */
   color: var(--emphasis);
-  text-shadow: 0 0 2px var(--shadow-soft), 0 0 3px var(--emphasis-soft), 0 0 5px var(--emphasis-soft), 0 0 10px var(--emphasis-soft);
+  text-shadow: 0 0 2px var(--shadow), 0 0 3px var(--emphasis-soft), 0 0 5px var(--emphasis-soft), 0 0 10px var(--emphasis-soft);
   font-style: italic;
 }
 
 /* .mtk7 {
   color: var(--primary);
-  text-shadow: 0 0 2px var(--darkest), 0 0 10px var(--primary-soft), 0 0 5px var(--primary-soft), 0 0 25px var(--primary-soft);
+  text-shadow: 0 0 2px var(--darkest), 0 0 10px var(--primary-veil), 0 0 5px var(--primary-veil), 0 0 25px var(--primary-veil);
 } */
 
 /* .mtk8 {
-  color: var(--secondary-nature);
-  text-shadow: 0 0 2px var(--shadow-soft), 0 0 10px var(--positive-muted), 0 0 35px var(--neutral-deep);
+  color: var(--secondary);
+  text-shadow: 0 0 2px var(--shadow), 0 0 10px var(--positive-solid), 0 0 35px var(--bg-panel);
 } */
 
 .mtk7, .mtk10 {
   color: var(--alternate);
-  /* text-shadow: 0 0 2px var(--neutral-shadow), 0 0 35px var(--lightest44), 0 0 10px var(--alternate), 0 0 2px var(--alternate); */
+  /* text-shadow: 0 0 2px var(--bg-panel), 0 0 35px var(--lightest44), 0 0 10px var(--alternate), 0 0 2px var(--alternate); */
   text-shadow:
   1px 2px 1px var(--darkest),
   2px 4px 1px var(--darkest),
@@ -109,7 +109,7 @@
 } */
 
 /* .monaco-editor .overflow-guard .margin {
-    background: var(--bg-panel-alt);
+    background: var(--bg-panel);
 } */
 
 canvas {
@@ -127,7 +127,7 @@ canvas {
 
 /* Sweet sunset dots */
 .monaco-workbench .activitybar>.content .monaco-action-bar .badge .badge-content {
-  background: linear-gradient(to bottom, var(--emphasis-alt) 25%, var(--alternate));
+  background: linear-gradient(to bottom, var(--emphasis) 25%, var(--alternate));
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit::after {
@@ -143,7 +143,7 @@ canvas {
 
 /* Active sidebar item */
 .monaco-workbench .activitybar>.content .monaco-action-bar .action-item.checked {
-  box-shadow: inset 0 -5px 25px var(--alternate-soft);
+  box-shadow: inset 0 -5px 25px var(--alternate-wash);
   position: relative;
 }
 
@@ -204,8 +204,8 @@ canvas {
 }
 
 .monaco-editor .line-numbers {
-  color: var(--primary-soft);
-  text-shadow: 0 0 2px var(--neutral-shadow), 0 0 35px var(--lightest44), 0 0 10px var(--primary-soft), 0 0 2px var(--primary-soft);
+  color: var(--primary-veil);
+  text-shadow: 0 0 2px var(--bg-panel), 0 0 35px var(--lightest44), 0 0 10px var(--primary-veil), 0 0 2px var(--primary-veil);
 }
 
 .monaco-list .monaco-list-rows {
@@ -213,7 +213,7 @@ canvas {
 }
 
 .monaco-list-row.focused, .monaco-list-row.selected {
-  background-color: var(--primary-wash) !important;
+  background-color: var(--primary-fog) !important;
 }
 
 .explorer-folders-view span[title~="emphasized"], .monaco-icon-label[title~="emphasized"]::after {

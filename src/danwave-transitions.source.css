@@ -100,7 +100,7 @@
 
 .monaco-editor .selected-text {
     /* background-color: var(--overlay-strong)!important;
-    box-shadow: 0 0 35px 5px var(--alternate-glow-strong);
+    box-shadow: 0 0 35px 5px var(--alternate-mid);
     color: var(--lightest)!important; */
 
     background-color: var(--accent-tint)!important;
@@ -114,7 +114,7 @@
 
 
 .monaco-editor .cursor { 
-    box-shadow: 0 0 15px 2px var(--cursor-glow);
+    box-shadow: 0 0 15px 2px var(--secondary-alt);
     animation: cursor .5s infinite linear;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .view-line .inline-folded:after {
-    color:var(--emphasis-pure);
+    color:var(--emphasis);
     border-radius: 5px;
     animation: colapse .5s linear;
 }
@@ -132,8 +132,8 @@
 
 
 .monaco-editor .line-numbers.active-line-number {
-    color: var(--secondary-info);
-    text-shadow: 0 0 1px var(--emphasis-pure)!important;
+    color: var(--secondary);
+    text-shadow: 0 0 1px var(--emphasis)!important;
 }
 
 
@@ -141,7 +141,7 @@
 
 /* canvas.minimap-decorations-layer {
     background-color: var(--clear) !important;
-    background-image: linear-gradient(to bottom, var(--bg-gradient-low) 75%, var(--bg-gradient-high));
+    background-image: linear-gradient(to bottom, var(--bg-panel) 75%, var(--surface));
     background-size: auto 100vh;
     background-position: top;
     background-repeat: no-repeat;
@@ -157,12 +157,12 @@
 
 @keyframes colapse {
     0% {  
-        background-color:var(--emphasis-pure);
-        box-shadow: 0 0 5px 0 var(--emphasis-pure);      
+        background-color:var(--emphasis);
+        box-shadow: 0 0 5px 0 var(--emphasis);      
     }
     70% {
-        background-color: var(--emphasis-pure);
-        box-shadow: 0 0 35px 10px var(--emphasis-pure);
+        background-color: var(--emphasis);
+        box-shadow: 0 0 35px 10px var(--emphasis);
     }
     100% {
         background-color: var(--clear);
@@ -171,10 +171,10 @@
 
 @keyframes cursor {
     0% {  
-        box-shadow: 0 0 5px 0 var(--cursor-glow);      
+        box-shadow: 0 0 5px 0 var(--secondary-alt);      
     }
     100% {
-        box-shadow: 0 0 35px 5px var(--cursor-glow);
+        box-shadow: 0 0 35px 5px var(--secondary-alt);
     }
 }
 
@@ -204,7 +204,7 @@
     font-size: 5em;
     font-family: 'Tourney', cursive;
 
-    color: var(--alternate-ghost);
+    color: var(--alternate-wash);
     position: absolute;
     bottom: 40px;
     width: 100%;
@@ -224,7 +224,7 @@
     0% {  
         bottom: 150px;
         font-size: 0.1em;
-        color: var(--alternate-ghost);       
+        color: var(--alternate-wash);       
         text-shadow: 0 0 5px var(--alternate-faint);
     }
     100% {
