@@ -209,7 +209,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -274,14 +274,14 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Tag attribute HTML",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "$palette.primaryLighter1",
+        "foreground": "$palette.alternate",
         "fontStyle": "italic"
       }
     },
@@ -299,7 +299,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -326,21 +326,21 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Control keyword",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
       "name": "Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -351,7 +351,7 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -403,7 +403,7 @@
       "name": "Embedded puncuation",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -423,7 +423,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -461,7 +461,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -510,7 +510,7 @@
       "name": "Markup link",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -555,7 +555,7 @@
       "name": "C++ operators",
       "scope": "source.cpp keyword.operator",
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {
@@ -616,7 +616,7 @@
         "support.type.property-name.json.arm-template"
       ],
       "settings": {
-        "foreground": "$palette.primaryLighter1"
+        "foreground": "$palette.alternate"
       }
     },
     {

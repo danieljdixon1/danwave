@@ -80,16 +80,16 @@
     "editorOverviewRuler.border": "#5b59704d",
     "editorOverviewRuler.findMatchForeground": "#5b5970",
     "editorOverviewRuler.modifiedForeground": "#7f7f7f99",
-    "editorOverviewRuler.addedForeground": "#77fe9b99",
+    "editorOverviewRuler.addedForeground": "#adf0be99",
     "editorOverviewRuler.deletedForeground": "#ff928266",
     "editorOverviewRuler.errorForeground": "#ff928299",
     "editorOverviewRuler.warningForeground": "#ff928299",
     "editorError.foreground": "#ff9282",
     "editorWarning.foreground": "#ff928299",
     "editorGutter.modifiedBackground": "#7f7f7f99",
-    "editorGutter.addedBackground": "#77fe9bcc",
+    "editorGutter.addedBackground": "#adf0becc",
     "editorGutter.deletedBackground": "#ff9282a4",
-    "diffEditor.insertedTextBackground": "#77fe9b99",
+    "diffEditor.insertedTextBackground": "#adf0be99",
     "diffEditor.removedTextBackground": "#ff928233",
     "editorWidget.background": "#454453",
     "editorWidget.border": "#454453",
@@ -126,7 +126,7 @@
     "terminal.ansiBrightGreen": "#ff9282",
     "terminal.ansiBrightMagenta": "#aabaff",
     "terminal.ansiBrightRed": "#ff9282",
-    "terminal.ansiBrightYellow": "#77fe9b",
+    "terminal.ansiBrightYellow": "#adf0be",
     "terminal.ansiCyan": "#96a9f1",
     "terminal.ansiGreen": "#ff9282",
     "terminal.ansiMagenta": "#aabaff",
@@ -209,7 +209,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -274,14 +274,14 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
       "name": "Tag attribute HTML",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "#fcaea1",
+        "foreground": "#adf0be",
         "fontStyle": "italic"
       }
     },
@@ -299,7 +299,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -326,21 +326,21 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
       "name": "Control keyword",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
       "name": "Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -351,7 +351,7 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -403,7 +403,7 @@
       "name": "Embedded puncuation",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -423,7 +423,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -461,7 +461,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -510,7 +510,7 @@
       "name": "Markup link",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -555,7 +555,7 @@
       "name": "C++ operators",
       "scope": "source.cpp keyword.operator",
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
@@ -616,7 +616,7 @@
         "support.type.property-name.json.arm-template"
       ],
       "settings": {
-        "foreground": "#fcaea1"
+        "foreground": "#adf0be"
       }
     },
     {
