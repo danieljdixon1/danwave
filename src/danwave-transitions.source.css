@@ -1,7 +1,7 @@
 .interactive-session .selected-text,
 .chat-view .selected-text, .monaco-editor .selected-text {
     font-weight: 700 !important;
-    background-color: var(--primary-lighter1) !important;
+    background-color: var(--primary-muted) !important;
     color: var(--lightest) !important;
 }
 
@@ -9,7 +9,7 @@
 .interactive-session .value::selection,
 .chat-view .rendered-markdown ::selection,
 .chat-view .value::selection {
-    background-color: var(--primary-lighter1) !important;
+    background-color: var(--primary-muted) !important;
     color: var(--lightest) !important;
 }
 
@@ -31,19 +31,19 @@
 .quick-input-widget textarea::selection,
 input[type="text"]::selection,
 textarea::selection {
-    background-color: var(--primary-lighter1) !important;
+    background-color: var(--primary-muted) !important;
     color: var(--lightest) !important;
 }
 
 .xterm .xterm-selection div,
 .terminal.xterm .xterm-selection div,
 .monaco-workbench .xterm .xterm-selection div {
-    background-color: var(--primary-lighter1)!important;
+    background-color: var(--primary-muted)!important;
     opacity: 0.9 !important;
 }
 
 .editor-group-container:after {
-    animation: flight 2.8s linear infinite;
+    animation: flight 5.6s linear infinite;
     will-change: transform;
 }
 

@@ -13,7 +13,7 @@
 .mtk8, .mtk9 {
   /* color: var(--emphasis); */
   color: var(--emphasis);
-  text-shadow: 0 0 2px var(--shadow), 0 0 3px var(--emphasis-soft), 0 0 5px var(--emphasis-soft), 0 0 10px var(--emphasis-soft);
+  text-shadow: 0 0 2px var(--shadow), 0 0 1.5px var(--emphasis-soft), 0 0 2.5px var(--emphasis-soft), 0 0 5px var(--emphasis-soft);
   font-style: italic;
 }
 
@@ -28,14 +28,14 @@
 } */
 
 .mtk7 {
-  color: var(--lightest59);
+  color: var(--lightestCa);
   /* text-shadow: 0 0 2px var(--bg-panel), 0 0 35px var(--lightest44), 0 0 10px var(--alternate), 0 0 2px var(--alternate); */
   text-shadow: none;
 }
 
 
 .mtk10 {
-    color: var(--lightest59);
+  color: var(--lightestCa);
     text-shadow: none;
     font-style: italic;
 }
@@ -47,8 +47,8 @@
 /* Monaco token class IDs can vary by language/theme context; keep extra classes on the standard shadow stack. */
 .mtk3, .mtk4, .mtk5, .mtk11, .mtk14, .mtk10, .mtk7, .mtk6, .mtk4, .mtk5, .mtk11, .mtk14, .mtk12, .mtk13, .mtk15, .mtk16, .mtk17, .mtk18 {
   font-weight: 700;
-    -webkit-text-stroke: 0.5px var(--darkest);
-    text-shadow: 0px 0px 1px var(--darkest), 0 3px 5px var(--darkest);
+    -webkit-text-stroke: 0.4px var(--darkest);
+    text-shadow: 0px 0px 2px var(--darkest), 0 2px 7px var(--darkest);
 }
 
 .monaco-editor .margin, .monaco-editor-background, .monaco-editor .inputarea.ime-input {
